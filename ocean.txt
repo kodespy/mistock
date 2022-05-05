@@ -1,0 +1,14 @@
+username = doadmin
+password = AVNS_7nJDfq9WbPvM86B hide
+host = mistockdb-do-user-3565626-0.b.db.ondigitalocean.com
+port = 25060
+database = defaultdb
+sslmode = require
+
+
+
+postgresql://doadmin:AVNS_7nJDfq9WbPvM86B@mistockdb-do-user-3565626-0.b.db.ondigitalocean.com:25060/defaultdb?sslmode=require
+
+
+
+PGPASSWORD=AVNS_7nJDfq9WbPvM86B psql -U doadmin -h mistockdb-do-user-3565626-0.b.db.ondigitalocean.com -p 25060 -d defaultdb --set=sslmode=require
